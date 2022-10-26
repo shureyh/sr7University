@@ -5,12 +5,12 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 
-$email_from = 's.rudainy@outlook.com';
+$email_from = 's.rudainy@outlook.com' ;
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
               "User Email: $visitor_email. \n".
-              "Subject: $subject. \n".
-              "Message: $message.";
+              "Subject: $subject.\n".
+              "Message: $message.\n";
 
 $to = 'sr7rudainy@gmail.com';
 $headers = "From: $email_from \r\n";
